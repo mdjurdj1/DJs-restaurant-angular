@@ -1,6 +1,8 @@
 angular.module('angularRestaurant.home').controller('HomeController',
-  function () {
+  function ($location) {
 
     var vm = this;
+
+    vm.currentPath = $location.path();
 
   });

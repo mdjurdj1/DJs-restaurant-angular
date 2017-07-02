@@ -22,7 +22,7 @@
   <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
 
       <header ui-view="header"></header>
-        <div id="sticky_bg">
+        <div id="sticky_bg" ng-hide="currentPath === '/'">
           <div class="site-content" ui-view="content"></div>
         </div>
       <footer ui-view="footer"></footer>
