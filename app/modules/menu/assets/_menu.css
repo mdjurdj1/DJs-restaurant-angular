@@ -5,10 +5,19 @@ div#menu_wrapper {
 div.thumbnail {
   border: 2px solid black !important;
   padding: 1.5em;
+  background-color: #222222;
 
   -webkit-box-shadow: -1px 6px 50px 1px rgba(0,0,0,0.91);
   -moz-box-shadow: -1px 6px 50px 1px rgba(0,0,0,0.91);
   box-shadow: -1px 6px 50px 1px rgba(0,0,0,0.91);
+}
+
+div.caption p {
+  color: white;
+}
+
+div.caption h3 {
+  color: white;
 }
 
 div.thumbnail img {

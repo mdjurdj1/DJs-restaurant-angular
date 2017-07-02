@@ -6,7 +6,8 @@
     "angular-bootstrap": "2.5.0",
     "ui-router": "0.2.18",
     "jquery": "2.2.1",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "ngmap": "^1.18.4"
   },
   "devDependencies": {},
   "appPath": "app",

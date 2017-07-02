@@ -1,0 +1,30 @@
+div#location_container {
+  margin-top: 5%;
+  margin-bottom: 20%;
+  border: 3px solid black;
+}
+
+div#location_container h2 {
+  margin: 0;
+  background: #222222;
+  color: white;
+  padding: 1em;
+    font-family: 'Paytone One', sans-serif;
+
+}
+
+div.custom-marker {
+  width: 300px;
+  background-color: white;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+div.custom-marker img {
+  margin-right: 9px;
+}
+
+div#marker_text {
+  color: red;
+  font-weight: bold;
+}
