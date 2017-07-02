@@ -1,0 +1,47 @@
+div#menu_wrapper {
+  padding-top: 4em;
+}
+
+div.thumbnail {
+  border: 2px solid black !important;
+  padding: 1.5em;
+
+  -webkit-box-shadow: -1px 6px 50px 1px rgba(0,0,0,0.91);
+  -moz-box-shadow: -1px 6px 50px 1px rgba(0,0,0,0.91);
+  box-shadow: -1px 6px 50px 1px rgba(0,0,0,0.91);
+}
+
+div.thumbnail img {
+  border: 1px solid black;
+}
+
+
+h3.Railway {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+img.maxed {
+  width: 180px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+/*MODAL STYLING*/
+
+h4.category-widget-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+div.card {
+  margin-bottom: 2.5em;
+}
+
+div.card-footer {
+  padding-left: 2em;
+}
+
+h3.modal-title {
+  font-size: 2em;
+}

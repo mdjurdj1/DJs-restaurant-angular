@@ -1,0 +1,17 @@
+{
+  "name": "ng-rest",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "1.5.11",
+    "angular-bootstrap": "2.5.0",
+    "ui-router": "0.2.18",
+    "jquery": "2.2.1",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "appPath": "app",
+  "moduleName": "ngRestApp",
+  "resolutions": {
+    "angular": "1.5.11"
+  }
+}

@@ -1,0 +1,43 @@
+/*STICKY-BG STYLING*/
+
+div#sticky_bg {
+  background-image: url("https://bestfoodrestaurants.files.wordpress.com/2016/05/italian-food-banner.jpg");
+  background-size: cover;
+  height: 340px;
+
+  -webkit-box-shadow: -1px 16px 29px -3px rgba(0,0,0,0.91);
+  -moz-box-shadow: -1px 16px 29px -3px rgba(0,0,0,0.91);
+  box-shadow: -1px 16px 29px -3px rgba(0,0,0,0.91);
+}
+
+/*NAVBAR STYLING*/
+
+#navbar {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 0em;
+
+  -webkit-box-shadow: -1px 16px 29px -3px rgba(0,0,0,0.91);
+  -moz-box-shadow: -1px 16px 29px -3px rgba(0,0,0,0.91);
+  box-shadow: -1px 16px 29px -3px rgba(0,0,0,0.91);
+}
+
+.navbar-brand {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+/*FOOTER STYLING*/
+
+#footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}

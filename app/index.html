@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Restaurant</title>
+
+    <!-- build:css assets/css/site.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/app.css">
+    <link rel="stylesheet" href="modules/home/assets/_home.css">
+    <link rel="stylesheet" href="modules/menu/assets/_menu.css">
+    <link rel="stylesheet" href="modules/contact/assets/_contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Raleway|Lato|Sigmar+One|Paytone+One" rel="stylesheet">
+    <!-- endbuild -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.js"></script>
+
+  </head>
+
+  <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
+
+      <header ui-view="header"></header>
+        <div id="sticky_bg">
+          <div class="site-content" ui-view="content"></div>
+        </div>
+      <footer ui-view="footer"></footer>
+
+      <!-- build:vendorjs js/vendor.js -->
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/ui-router/release/angular-ui-router.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+      <!-- endbuild  -->
+
+        <!-- build:appjs js/app.js -->
+      <script src="modules/main/app.module.js"></script>
+      <script src="modules/main/controllers/app.controller.js"></script>
+      <script src="modules/main/controllers/header.controller.js"></script>
+      <script src="modules/main/controllers/footer.controller.js"></script>
+
+      <!-- Core Module and factory services -->
+      <script src="core/core.module.js"></script>
+      <script src="core/services/seed-data.factory.js"></script>
+
+      <!-- Home page module -->
+      <script src="modules/home/home.module.js"></script>
+      <script src="modules/home/home.routes.js"></script>
+      <script src="modules/home/controllers/home.controller.js"></script>
+
+      <!-- Menu page module -->
+      <script src="modules/menu/menu.module.js"></script>
+      <script src="modules/menu/menu.routes.js"></script>
+      <script src="modules/menu/controllers/menu.controller.js"></script>
+      <script src="modules/menu/controllers/modal.controller.js"></script>
+
+      <!-- Contact page module -->
+      <script src="modules/contact/contact.module.js"></script>
+      <script src="modules/contact/contact.routes.js"></script>
+      <script src="modules/contact/controllers/contact.controller.js"></script>
+      <!-- endbuild  -->
+
+  </body>
+</html>
