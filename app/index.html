@@ -22,9 +22,7 @@
   <body ng-controller="AppController as app" class="site {{$state.current.data.bodyClass}}">
 
       <header ui-view="header"></header>
-        <div id="sticky_bg" ng-class="{hidden:$state.includes('home')}">
-          <div class="site-content" ui-view="content"></div>
-        </div>
+      <div class="site-content" ui-view="content"></div>
       <footer ui-view="footer"></footer>
 
       <!-- build:vendorjs js/vendor.js -->

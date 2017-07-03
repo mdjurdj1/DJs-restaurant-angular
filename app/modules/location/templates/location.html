@@ -1,22 +1,24 @@
-<div class="container">
-  <div id="location_container" ng-controller="LocationController as vm">
-    <h2>Ready to Eat? Here's How to Reach DJ's!</h2>
-    <div map-lazy-load="https://maps.google.com/maps/api/js"
-      map-lazy-load-params="{{googleMapsUrl}}">
-    <ng-map center="57 hemlock st, valatie NY" zoom="15" style="height:600px" >
-      <marker id="bar" position="57 hemlock st, valatie NY"></marker>
-      <custom-marker id="foo" position="30 hemlock st, valatie NY"
-          on-click="vm.closeCustomMarker()">
-            <div>
-              <img width="64" src="../assets/images/guy_fieri.jpeg" align="left" />
-              <div id="marker_text">
-                Hi, How Are You?  <span on-click="vm.closeCustomMarker()" class="glyphicon glyphicon-remove"></span><br/>
-                I'm Guy Fieri.<br/>
-                And I love DJ's Kitchen & Bar. What an amazing place!
-              </div>
-              If you want to contact DJ's and make a reservation, please click <a href="#/contact"><strong>here</strong></a>
-          </custom-marker>
-        </ng-map>
+<div id="sticky_bg">
+  <div class="container">
+    <div id="location_container" ng-controller="LocationController as vm">
+      <h2>Ready to Eat? Here's How to Reach DJ's!</h2>
+      <div map-lazy-load="https://maps.google.com/maps/api/js"
+        map-lazy-load-params="{{googleMapsUrl}}">
+      <ng-map center="57 hemlock st, valatie NY" zoom="15" style="height:600px" >
+        <marker id="bar" position="57 hemlock st, valatie NY"></marker>
+        <custom-marker id="foo" position="30 hemlock st, valatie NY"
+            on-click="vm.closeCustomMarker()">
+              <div>
+                <img width="64" src="../assets/images/guy_fieri.jpeg" align="left" />
+                <div id="marker_text">
+                  Hi, How Are You?  <span on-click="vm.closeCustomMarker()" class="glyphicon glyphicon-remove"></span><br/>
+                  I'm Guy Fieri.<br/>
+                  And I love DJ's Kitchen & Bar. What an amazing place!
+                </div>
+                If you want to contact DJ's and make a reservation, please click <a href="#/contact"><strong>here</strong></a>
+            </custom-marker>
+          </ng-map>
+      </div>
     </div>
   </div>
 </div>
