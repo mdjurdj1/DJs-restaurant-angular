@@ -1,4 +1,3 @@
-// Generated on 2017-07-02 using generator-angular 0.16.0
 'use strict';
 
 var gulp = require('gulp');
