@@ -1,12 +1,9 @@
 # ng-rest
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
+[Imgur](http://i.imgur.com/xOTJ4DA.jpg)
+
+This project is a single page application, built using Angular 1.5.11. It features google maps integration, bootstrap styling, and routing through ui-router.
 
 ## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
+Run `gulp` for building and `gulp serve` for preview.
