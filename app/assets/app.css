@@ -10,6 +10,9 @@ div#sticky_bg {
   box-shadow: -1px 16px 29px -3px rgba(0,0,0,0.91);
 }
 
+div#sticky_bg.hidden {
+  display: none;
+}
 /*NAVBAR STYLING*/
 
 #navbar {
