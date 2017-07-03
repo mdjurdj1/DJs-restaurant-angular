@@ -9,11 +9,13 @@ angular.module('angularRestaurant.location').controller('LocationController',
       console.log('shapes', map.shapes);
     });
 
+    vm.googleMapsUrl="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQz4jORqA6XDWFVuKKhPQegX2iHjQewy8"
+
     vm.showCustomMarker= function(evt) {
         map.customMarkers.foo.setVisible(true);
         map.customMarkers.foo.setPosition(this.getPosition());
       };
-      vm.closeCustomMarker= function(evt) {
+    vm.closeCustomMarker= function(evt) {
         this.style.display = 'none';
       };
 
