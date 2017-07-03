@@ -28,6 +28,15 @@ div#sticky_bg {
   font-family: 'Paytone One', sans-serif;
   font-size: 1.3em;
   font-weight: normal;
+  display: inline;
+}
+
+img#main_logo {
+  height: 35px !important;
+  width: 35px !important;
+  position: relative;
+  top: -8px;
+  margin-right: 0.3em;
 }
 
 /*FOOTER STYLING*/
