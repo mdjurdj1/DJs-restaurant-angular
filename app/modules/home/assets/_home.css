@@ -45,6 +45,10 @@ div#main-menu {
   padding-top: 2em;
 }
 
+#ampersand {
+    color: #61A6FB
+}
+
 /*MOBILE RESIZING ===============================================*/
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 580px) {
